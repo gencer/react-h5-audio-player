@@ -325,9 +325,9 @@ class H5AudioPlayer extends Component {
 
   componentDidUpdate(prevProps) {
     const { src } = this.props
-    if (src !== prevProps.src) {
-      this.audio.play()
-    }
+    // if (src !== prevProps.src) {
+      // this.audio.play()
+    // }
   }
 
   updateDisplayTime = (dragLeft) => {
