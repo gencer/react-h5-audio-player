@@ -443,7 +443,7 @@ class H5AudioPlayer extends Component {
     durationSec = addHeadingZero(durationSec)
 
     return (
-      <div style={style.audioPlayerWrapper(hidePlayer)} className={`react-h5-audio-player ${className}`}>
+      <div style={style.audioPlayerWrapper(hidePlayer)} className={`${className}`}>
         <div style={style.flexWrapper} className="flex">
           <audio
             src={src}
